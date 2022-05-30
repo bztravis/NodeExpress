@@ -1,0 +1,17 @@
+{
+  "name": "nodeexpress",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "dev": "onchange \"app.js\" -- npm run dev2",
+    "dev2": "cls && node app.js"
+  },
+  "author": "Brian Travis",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "onchange": "^7.1.0"
+  }
+}
