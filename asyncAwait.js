@@ -1,4 +1,4 @@
-const example = async () => {
+const example = async () => {   // I don't think you need the async here because there is no await, it's just returning a value
     // return window.setTimeout(() => "timeout string", 2000)
     return 'hello there'
 }
@@ -21,7 +21,7 @@ someFunc()
 console.log(__dirname)
 console.log(__filename)
 console.log(module)
-// console.log(process)
+console.log(process)
 
 // similar to Window object's functions
 setInterval(() => {

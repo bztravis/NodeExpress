@@ -6,3 +6,6 @@ const joe = "joe"
 // console.log(module)
 
 module.exports = {bob, joe}
+
+
+console.log("names.js");

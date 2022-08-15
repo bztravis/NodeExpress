@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server",
-    "dev": "onchange \"app.js\" -- npm run dev2",
-    "dev2": "cls && node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Brian Travis",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
   "dependencies": {
-    "onchange": "^7.1.0"
-  }
+    "lodash": "^4.17.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bztravis88/NodeExpress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bztravis88/NodeExpress/issues"
+  },
+  "homepage": "https://github.com/bztravis88/NodeExpress#readme",
+  "description": ""
 }
