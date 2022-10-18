@@ -1,3 +1,7 @@
+// doesn't have node modules needed
+// originally from node-express-course-main/02-express-tutorial/app.js
+
+
 const express = require('express')
 const app = express()
 
